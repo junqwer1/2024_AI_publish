@@ -1,0 +1,25 @@
+.container{
+    width: 450px;
+    background-color:  black;
+    border-radius: 5px;
+}
+
+.content{
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+button{
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+    font-weight: 700;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* line-height: 30px; 행간 */
+    /* text-transform: uppercase; 글 모양 바꾸기 */
+    /* word-spacing: 20px; 자간 */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

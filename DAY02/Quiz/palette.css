@@ -1,0 +1,73 @@
+button{
+    width: 90px;
+    height: 110px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-weight: 700;
+    padding: 20px 0 0 0;
+}
+
+.hex{
+    text-transform: uppercase;
+}
+
+.btn1{
+    background-color: #ecf8ff;
+    border-color: #ecf8ff;
+}
+
+.btn2{
+    background-color: #d5edff;
+    border-color: #d5edff;
+}
+
+.btn3{
+    background-color: #b4e1ff;
+    border-color: #b4e1ff;
+}
+
+.btn4{
+    background-color: #80d1ff;
+    border-color: #80d1ff;
+}
+
+.btn5{
+    background-color: #44b4ff;
+    border-color: #44b4ff;
+}
+
+.btn6{
+    background-color: #1991ff;
+    border-color: #1991ff;
+    color: white;
+}
+
+.btn7{
+    background-color: #016fff;
+    border-color: #016fff;
+    color: white;
+}
+
+.btn8{
+    background-color: #0057fa;
+    border-color: #0057fa;
+    color: white;
+}
+
+.btn9{
+    background-color: #044cdc;
+    border-color: #044cdc;
+    color: white;
+}
+
+.btn10{
+    background-color: #0a409e;
+    border-color: #0a409e;
+    color: white;
+}
+
+.btn11{
+    background-color: #0c275f;
+    border-color: #0c275f;
+    color: white;
+}

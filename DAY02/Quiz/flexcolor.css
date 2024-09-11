@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    
+}
+
+.content{
+    width: 100px;
+    height: 100px;
+}
+
+.blackgreen{
+    background-color: #1abc9c;
+}
+
+.green{
+    background-color: #2ecc71;
+}
+
+.blue{
+    background-color: #3498db;
+}

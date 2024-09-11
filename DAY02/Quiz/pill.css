@@ -1,0 +1,11 @@
+.btn{
+    padding: 5px 13px 5px 13px;
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+    font-weight: 700;
+}
+
+.all{
+    background-color: skyblue;
+    color: white;
+}

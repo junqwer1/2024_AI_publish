@@ -1,0 +1,21 @@
+/* link html head에 넣기 */
+/* font-face css에 넣기 */
+.nanum-brush-script-regular {
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: 'YESMyoungjo-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_13@1.0/YESMyoungjo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.abc{
+    font-family: 'YESMyoungjo-Regular';
+    
+}
+
