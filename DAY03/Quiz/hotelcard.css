@@ -1,0 +1,54 @@
+
+.idle{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0 5px 0;
+    gap: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    gap: 10px;
+}
+
+.name{
+    border-bottom: 1px solid white;
+    width: fit-content;
+    padding-bottom: 3px;
+}
+
+.event{
+    font-size: 20px;
+}
+
+.miyeon{
+    background-image: url("miyeon.webp");
+    background-size: cover;
+}
+
+.minnie{
+    background-image: url("minnie.webp");
+    background-size: cover;
+}
+
+.soyeon{
+    background-image: url("soyeon.webp");
+    background-size: cover;
+}
+
+.yuqi{
+    background-image: url("yuqi.webp");
+    background-size: cover;
+}
+
+.shuhua{
+    background-image: url("shuhua.webp");
+    background-size: cover;
+}

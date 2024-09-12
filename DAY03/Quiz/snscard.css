@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 700px;
+    border: none;
+    border-radius: 30px;
+    background: rgb(255,68,0);
+    background: linear-gradient(180deg, rgba(255,68,0,1) 0%, rgba(0,62,135,1) 100%);
+}
+
+.profilecontent{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cir{
+    width: 100px;
+    height: 100px;
+}
+
+.cir > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.text{
+    color: white;
+}
+
+.name{
+    font-weight: 700;
+}
+
+.barcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.menu{
+    display: flex;
+    width: 80%;
+    height: 45px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.iconcontent{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+}
+
+.fa-brands{
+    font-size: 30px;
+    color: #dddddd;
+}
