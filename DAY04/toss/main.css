@@ -1,0 +1,90 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://static.toss.im/assets/homepage/newtossim/new_main.png");
+  background-size: cover;
+}
+
+.centeredBox {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding-top: 150px;
+}
+
+.text {
+  font-size: 66px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  margin: 5px;
+  line-height: 1.4;
+  word-spacing: 0.2px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.btns > button{
+    font-size: 17px;
+    font-weight: 500;
+    background-color: #2a3647;
+    color: white;
+    padding: 11px 22px;
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btns > button:hover {
+  background-color: rgba(78, 89, 104);
+}
+
+.apple {
+  color: #a8abac;
+  font-size: 23px;
+}
+
+.whiteBlur{
+    /* 포지션잡기 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* 화이트블러의 넓이와 높이 */
+    width: 100%;
+    height: 23%;
+    /* 그라데이션 높이 */
+    background: linear-gradient(
+        180deg,
+        white 0%,
+        white 59px,
+        rgba(255,255,255,0) 100%
+    );
+}

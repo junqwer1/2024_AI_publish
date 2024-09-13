@@ -1,0 +1,113 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    gap: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sinsang{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.grey{
+    color: grey;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #333333;
+}
+
+.all{
+    font-size: 14px;
+}
+
+.content2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.rela{
+    position: relative;
+    cursor: pointer;
+}
+
+.image{
+    width: 100%;
+    height: 250px;
+}
+
+.image > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bagicon{
+    /* 포지션 잡기 */
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+    /* 빨간색 원 */
+    width: 50px;
+    height: 50px;
+    border-radius: 9999px;
+    background-color: red;
+    opacity: 0.8;
+    color: white;
+
+
+    /* 자식들을 중앙에 배치 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.name{
+    font-size: 13px;
+}
+
+.views{
+    font-size: 11px;
+}
+
+.btn{
+    width: fit-content;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: red;
+    padding: 0 6px 0 6px;
+}
